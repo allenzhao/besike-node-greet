@@ -4,4 +4,4 @@ test: compile
 	mocha
 package: test
 	npm pack
-.PHONY: compile
+.PHONY: compile test package
